@@ -8,7 +8,6 @@ int main(int argc, char** argv)
 {
     if ( !checkArguments(argc, argv) )
     {
-        fprintf(stdout, "Error in parsing arguments.\n");
         return EXIT_FAILURE;
     }
 

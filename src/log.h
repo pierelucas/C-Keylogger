@@ -11,7 +11,9 @@
 #include <string.h>
 #include <stdlib.h>
 
+extern const char* kDevice;
+
 bool checkArguments(int argc, char** argv);
 
-void logLoop(int argc, char** argv);
+void logLoop();
  
